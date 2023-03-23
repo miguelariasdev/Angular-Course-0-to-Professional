@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class HeroeTarjetaComponent implements OnInit {
   
   @Input() heroe:any = {};
-  @Input() 
+  @Input() index:number = 0;
 
   constructor(){
 
